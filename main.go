@@ -50,8 +50,8 @@ func main() {
 
 	// module tester
 	http.HandleFunc("/test/control/exec", controlExec)
-	http.HandleFunc("/test/control/metric/static", controlExec)
-	http.HandleFunc("/test/control/metric/dynamic", controlExec)
+	http.HandleFunc("/test/control/metric/static", placeholder)
+	http.HandleFunc("/test/control/metric/dynamic", placeholder)
 
 	http.HandleFunc("/test/encrypt/hmac", placeholder)
 

@@ -1,4 +1,4 @@
-package remotecontrol
+package control
 
 import (
 	"fmt"

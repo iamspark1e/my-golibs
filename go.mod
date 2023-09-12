@@ -30,6 +30,7 @@ require (
 
 require (
 	github.com/docker/docker v24.0.5+incompatible
+	github.com/go-resty/resty/v2 v2.7.0
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/shirou/gopsutil/v3 v3.23.8
 	golang.org/x/net v0.9.0 // indirect
